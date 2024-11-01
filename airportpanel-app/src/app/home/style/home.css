@@ -1,0 +1,21 @@
+.painel__container {
+    @apply md:min-h-[80vh] md:max-h-[80vh] flex flex-col items-center justify-between 
+    md:w-[72rem] 2xs:w-5/6 p-2 2xs:min-h-[95vh] 2xs:max-h-[95vh]
+    bg-white rounded-lg overflow-scroll z-0;
+}
+
+.painel__flights {
+    @apply flex items-center justify-between w-full;
+}
+
+.th__flights__table {
+    @apply px-6 py-4 text-center
+}
+
+.td__flights__table {
+     @apply whitespace-nowrap px-6 py-2 h-20 last:rounded-r-lg first:rounded-l-lg text-center
+}
+
+.colors {
+    @apply bg-green-500 bg-red-500 bg-yellow-500 bg-blue-500 bg-purple-500 bg-pink-500 bg-indigo-500 bg-gray-500;
+}

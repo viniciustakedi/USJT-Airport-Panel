@@ -1,0 +1,32 @@
+.singup__bg {
+  background-image: url("../../../assets/images/singup-bg.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: -1;
+
+  @apply flex justify-center items-center;
+}
+
+.box__singup__content {
+  @apply xl:w-[70rem] lg:w-full lg:h-full h-auto
+  lg:p-0 md:p-10 sm:p-8 2xs:p-6
+  bg-white rounded-2xl shadow-lg flex justify-center items-center;
+}
+
+.sing__in {
+  @apply lg:w-2/4 h-full rounded-l-2xl bg-gradient-to-r from-[#FF8E00] to-[#FF5003] 
+   lg:flex justify-center items-center flex-col gap-2 hidden;
+}
+
+.sing__up {
+  @apply lg:w-4/5 w-full h-auto flex justify-center items-center flex-col gap-2
+  ;
+}
+
+.form__sing__up {
+  @apply lg:w-2/3 w-full
+}
